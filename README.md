@@ -1,16 +1,105 @@
-# React + Vite
+# 🍽️ Recipe Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern recipe discovery application built with React that allows users to search recipes, explore cuisines and categories, view detailed recipe information, and save favorite recipes.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔍 Search recipes by name
+* 🍕 Browse recipes from multiple cuisines
+* 📂 Explore recipe categories
+* ❤️ Add and remove favorite recipes
+* 💾 Persistent favorites using Local Storage
+* 📖 View complete recipe details
+* 🧭 Navigation with React Router
+* ⚡ Fast and responsive user interface
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Router
+
+### State Management
+
+* Context API
+* useState
+* useReducer
+* useEffect
+
+### Data Storage
+
+* Local Storage
+* JSON Server
+
+---
+
+## 📁 Project Structure
+
+```txt
+src
+├── components
+├── pages
+├── assets
+├── data
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/LogicDrifter17/Recipe-app---React.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Recipe-app---React
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Future Improvements
+
+* User Authentication
+* Backend Integration with Node.js & Express.js
+* PostgreSQL / MongoDB Database
+* Advanced Filtering
+* Recipe Reviews and Ratings
+* Dark Mode
+* Deployment
+
+---
+
+## 👨‍💻 Author
+
+Arun
+
+Aspiring Full Stack Developer passionate about Web Development, React, and Full Stack Technologies.
+
